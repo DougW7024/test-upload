@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  margin-top: 40px;
+  width: 800px;
+  margin: auto;
+  background-color: rgb(165, 42, 124);
+}
+
+.question-section {
+  margin: 20px;
+  height: 125px;
+}
+
+.button-container {
+  display: flex;
+  padding-bottom: 75px;
+  flex-wrap: wrap;
+}
+
+.button-container button {
+  flex: 1 1 45%;
+  margin: 11px;
+}
+
+.navigation-buttons {
+  display: flex;
+  padding: 10px 25px;
+}
+
+.navigation-buttons button {
+  flex: 1 1 45%;
+  margin: 40px;
+}
+
+.score-section {
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 497px;
+}
